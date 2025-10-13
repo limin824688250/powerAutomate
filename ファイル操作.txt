@@ -1,0 +1,2 @@
+DateTime.GetCurrentDateTime.Local DateTimeFormat: DateTime.DateTimeFormat.DateAndTime CurrentDateTime=> CurrentDateTime
+File.WriteText File: $'''D:\\PowerShellPractice\\test.txt''' TextToWrite: $'''hello world%CurrentDateTime%''' AppendNewLine: True IfFileExists: File.IfFileExists.Overwrite Encoding: File.FileEncoding.Unicode

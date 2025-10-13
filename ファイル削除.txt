@@ -1,0 +1,1 @@
+File.Delete Files: $'''D:\\PowerShellPractice\\test.txt'''

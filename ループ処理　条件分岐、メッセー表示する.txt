@@ -1,0 +1,10 @@
+
+
+
+LOOP LoopIndex FROM 1 TO 10 STEP 1
+    Display.ShowMessageDialog.ShowMessage Title: $'''gggg''' Message: LoopIndex Icon: Display.Icon.None Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: False ButtonPressed=> ButtonPressed
+    SET x TO LoopIndex
+    IF (x mod 2) = 0 THEN
+        Display.ShowMessageDialog.ShowMessage Title: $'''tttttt''' Message: $'''2で割り切れる数値は%x% です''' Icon: Display.Icon.None Buttons: Display.Buttons.OK DefaultButton: Display.DefaultButton.Button1 IsTopMost: False ButtonPressed=> ButtonPressed2
+    END
+END
